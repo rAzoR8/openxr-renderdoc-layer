@@ -1,0 +1,11 @@
+{
+  "file_format_version" : "1.0.0",
+  "api_layer": {
+    "name": "XR_RENDERDOC_LAYER",
+    "library_path": "$<TARGET_FILE:OpenXRRenderDocLayer>",
+    "api_version": "1.0",
+    "implementation_version": "1",
+    "description": "Capture RenderDoc frames https://github.com/rAzoR8/openxr-renderdoc-layer",
+    "disable_environment": "DISABLE_XR_RENDERDOC_LAYER"
+  }
+}
